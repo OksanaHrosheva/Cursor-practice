@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,600,700" rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/main.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-------------------------------Header------------------------------->
+    <header class="head">
+        <div class="head__logo">
+            <img src="./assets/logo.png" alt="logo">
+            <p class="f-semi-bold">WindAesthetics</p>
+        </div>
+        <nav class="head__navigation navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="f-regular" href="#Overview">Overview</a></li>
+                <li class="navigation__item"><a class="f-regular" href="#Features">Features</a></li>
+                <li class="navigation__item"><a class="f-regular" href="#About">About</a></li>
+                <li class="navigation__item"><a  class="f-regular" href="#Pricing">Pricing</a></li>
+            </ul>
+        </nav>
+        <div class="head__actions">
+            <button class="btn btn-primary">Sign In</button>
+            <button class="btn btn-secondary">Sign Up</button>
+        </div>
+    </header>
+<!----------------------------------------------- New section Overview  --------------------------------------->
+    
+        <section id="Overview" class="overview">
+            <div class="overview__body" >
+                <h1 class="f-semi-bold overview__title animate__animated animate__backInDown">Practice your Photography skills with ease</h1>
+                <p class="f-semi-bold overview__description animate__animated animate__fadeInUpBig ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </p>
+            <div class="overview__actions">
+                <button class="btn f-bold animate__animated animate__bounce">Get Started</button>
+                <button class="btn f-bold animate__animated animate__bounce">Discount</button>
+            </div>
+            </div>
+            <img class="overview__image" src="./assets/Overview_logo.png" alt="overview logo">
+        </section>
+
+<!------------------------------------------------New section Features---------------------------------------->
+        <section id="Features" class="features">
+            <div class="features__info"> 
+                <h2 class="features__title f-semi-bold animate__animated animate__backInDown">Why we are better than others</h2>
+                <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+            <div class="features__slider">
+                <div class="features__card">
+                    <img src="./assets/card_1.png" alt="card 1">
+                    <h4 class="f-semi-bold">Convenient study schedule</h4>
+                </div>
+                <div class="features__card">
+                    <img src="./assets/card_2.png" alt="card 2">
+                    <h4 class="f-semi-bold">Checked homework by teachers</h4>
+                </div>
+                <div class="features__card">
+                    <img src="./assets/card_3.png" alt="card 3">
+                    <h4 class="f-semi-bold">Modern internet platform</h4>
+                </div>
+                <div class="features__card">
+                    <img src="./assets/card_1.png" alt="card 4">
+                    <h4 class="f-semi-bold">Best quality</h4>
+                </div>
+            </div>
+        </section>
+
+<!------------------------------------------------New section About--------------------------------------->        
+        <section id="About" class="about">
+            <div class="about__info">
+                <h2 class="about__title f-semi-bold animate__animated animate__backInDown">We have been <span>improving our product for years</span> </h2>
+                <p class="about__description f-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti.</p>
+                <button class="btn about__btn">Get Started</button>
+            </div>
+            <img class="about__img" src="./assets/about.png" alt="about image">
+        </section>
+<!------------------------------------------------New section Pricing------------------------------------------->
+        <section id="Pricing" class="pricing">
+            <div class="pricing__info">
+                <h2 class="pricing__title f-semi-bold animate__animated animate__backInDown">You can practice at <span>anytime convenient for you</span> </h2>
+                <p class="pricing__description f-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <button class="btn pricing__btn">Get Started</button>
+            </div>
+            <img class="pricing__img" src="./assets/pricing.png" alt="pricing image">
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>$('.features__slider').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });</script>
+
+
+</body>
+</html>
